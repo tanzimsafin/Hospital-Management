@@ -1,0 +1,74 @@
+
+.moto{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 20px;
+    font-family: serif;
+}
+*{
+    margin: 0px;
+    margin-left: 0px;
+}
+.one{
+    background: linear-gradient(300deg, #00ff73, rgb(52, 183, 52), #72ef81);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.hospital_pic{
+    border-radius:5%;
+    height: 100px;
+    margin-left: 10px;
+  }
+.moto{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 20px;
+}
+.moto_text{
+  font-size: small;
+  margin-top: 0px;
+}
+.hospital{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 170px;
+}
+.four{
+  margin-top: 50px;
+    
+}
+form>.btn{
+  background-color: rgb(223, 137, 137);
+  color: black;
+}
+.appointment{
+  margin-top:30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pic_one{
+  border-radius: 50%;
+  height: 70px;
+}
+
